@@ -1,0 +1,158 @@
+body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+        /* Box */
+.box {
+    width: 40%;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #DDD;
+    border-radius: 7px;
+}
+
+.box img {
+    width: 22%;
+    padding: 0;
+}
+
+.box .text-log {
+    font-size: 1.6rem;
+    margin-top: -25px;
+}
+
+.box .text-log-bottom {
+    direction: rtl;
+    margin-top: -15px;
+    margin-bottom: 35px;
+}
+
+.box input[type="email"] {
+    padding: 17px 15px;
+    direction: rtl;
+    width: 85%;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.box form .not-pass {
+    margin-left: 230px;
+    text-decoration: none;
+    font-size: .98rem;
+    color: #1A73E8;
+}
+
+.box form .not-pc {
+    margin-top: 50px;
+    color: #5F6368;
+    direction: rtl;
+}
+.box form .up {
+    margin-left: 280px;
+    text-decoration: none;
+    font-size: .98rem;
+    color: #1A73E8;
+}
+            /* button */
+.button button a {
+    text-decoration: none;
+}
+.button {
+    margin-top: 50px;
+    position: relative;
+}
+.button-new,
+.button-next {
+    outline: none;
+    border: none;
+    background-color: #1a73e8;
+    color: #FFF;
+    padding: 10px;
+    width: 18%;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+.button-new {
+    position: absolute;
+    right: 0;
+    width: 20%;
+    background-color: #FFF;
+    color: #1A73E8;
+}
+.button-new a {
+    color: #1A73E8;
+}
+.button-next {
+    position: absolute;
+    left: 5%;
+}
+.button-next a {
+    color: #FFF;
+}
+.hid {
+    visibility: hidden;
+    margin-bottom: 125px;
+}
+            /*End button */
+
+            /* bottom */
+.text-bottom {
+    margin: auto;
+    text-align: center;
+    margin-top: -45px;
+}
+.text-bottom a {
+    text-decoration: none;
+    color: #757575;
+    font-size: .8rem;
+    width: 70px;
+    display: inline-block;
+    padding: 5px;
+}
+.text-bottom .bn {
+    margin-left: -220px;
+}   
+                    /* arabic */
+.ar {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: .8rem;
+    width: 70px;
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    bottom: 15px;
+    right: 240px;
+}
+.ar::before {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 4px;
+    width: 0;
+    border-color: #2b2b2b transparent transparent transparent;
+    left: -9px;
+    top: 11px;
+}
+                    /* End arabic */
+
+                    /* hover and fovus */
+.box input[type="email"]:focus {
+    border: solid 2px #006eff;
+}            
+.button-next:hover {
+    background-color: #1451a0;
+    box-shadow: 1px 1px 3px 0 #6d8099;
+}
+.button-new:hover {
+    background-color: #1451a00c;
+}
+                    /* End hover and fovus */
+
+                                    /* End www.google.com login */
